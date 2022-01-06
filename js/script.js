@@ -204,7 +204,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 data.data.forEach(({img, altimg, title, descr, price}) => {
                     new MenuCard(img, altimg, title, descr, price, '.menu .container').render();
                 });
-
+        });
     // Forms
 
     const forms = document.querySelectorAll('form');
