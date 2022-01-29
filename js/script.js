@@ -228,7 +228,7 @@ window.addEventListener('DOMContentLoaded', function () {
         });
 
         return await res.json();
-    }
+    };
 
     function bindPostData(form) {
         form.addEventListener('submit', (e) => {
@@ -418,8 +418,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
             dots.forEach(dot => dot.style.opacity = '.5');
             dots[sliderIndex - 1].style.opacity = 1;
-        })
-    })
+        });
+    });
 
     function sliderDotsCheck() {
         if (slides.length < 10) {
